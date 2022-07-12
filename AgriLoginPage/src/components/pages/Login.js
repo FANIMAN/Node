@@ -49,7 +49,7 @@ export default function Login() {
     return (
         <div id="login">
         <div className="container">
-          <div className="row login-box">
+          <div className="row login-box"> 
               <LeftLogin/>
               <LoginForm loginState={loginData}/>  
           </div>
